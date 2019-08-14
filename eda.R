@@ -122,6 +122,8 @@ weather_desc <- read_csv("input/weather_description.csv",
 
 weather <- bind_cols(temperature, humidity[, 3], wind_dir[, 3], wind_spd[, 3], weather_desc[, 3])
 
+# weather <- weather %>% mutate_if(is.numeric, scale)
+
 # write_csv(weather_all, "input/weather_long.csv")
 
 myspread <- function(df, key, value) { # basically pivot_wider()
@@ -139,7 +141,7 @@ myspread <- function(df, key, value) { # basically pivot_wider()
 # The MEGA JOIN -----------------------------------------------------------
 
 odds_weather <- odds_expanded %>%
-  filter(!push) %>%
+  filter((home %in% c("Chicago Cubs", "Boston Red Sox"))) %>%
   inner_join(team_cities, by = c("home" = "team")) %>%
   inner_join(weather, by = c("hour" = "datetime", "city" = "city")) %>%
   select(-hour) %>%
