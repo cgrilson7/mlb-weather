@@ -1,0 +1,8 @@
+---
+title: "Modeling high-resolution weather effects on MLB run totals"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
