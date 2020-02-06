@@ -1,10 +1,9 @@
 # Import data
-library(tidyverse)
 library(lubridate)
-odds <- read_csv("input/odds.csv",
+odds <- readr::read_csv("input/odds.csv",
                  col_types = cols(start_dt = col_datetime(format = "%Y-%m-%d %H:%M:%S%z"))) %>%
   arrange(start_dt, away) %>%
-  mutate(game_id = row_number(),
+  dplyr::mutate(game_id = row_number(),
          year = year(start_dt),
          hour = round_date(start_dt, "hour"), # could do floor_date 
          hour_idx = 0,

@@ -3,7 +3,6 @@
 # Uses the 'kaggler' package to get the list of all competition data files
 # kaggler documentation: https://github.com/mkearney/kaggler
 # devtools::install_github("https://github.com/mkearney/kaggler")
-library(tidyverse)
 
 get_kaggle_competition_files <- function(comp_id, dest_folder_path){
   # Create dir to hold files
