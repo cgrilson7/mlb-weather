@@ -20,9 +20,13 @@ First, make a `venv` for this project, and name it `env`:
     cd /path/to/mlb-weather/
     python3 -m venv env
 
-Activate it: `source env/bin/activate`
+Activate it:
 
-Then, install needed libraries: `pip3 install -r requirements.txt`
+    source env/bin/activate
+
+Then, install needed libraries:
+
+    pip3 install -r requirements.txt
 
 ## Storing your NCDC Climate Data Online API Token
 
@@ -31,9 +35,13 @@ To generate your token, go here:
 
 ### R
 
-First, store your token in your .Renviron file, either by running: `echo
-NCDC_TOKEN=[your token] >> /path/to/your/.Renviron` or
-`Sys.setenv(NCDC_TOKEN="[your token]")`
+First, store your token in your .Renviron file, either by running:
+
+    echo NCDC_TOKEN=[your token] >> /path/to/your/.Renviron
+
+or
+
+    Sys.setenv(NCDC_TOKEN="[your token]")
 
 Then, restart R and read your `.Renviron` by running
 `readRenviron("/path/to/your/.Renviron")`. You will only need to do this
@@ -41,9 +49,13 @@ once.
 
 ### Python
 
-Store your token in your `env/bin/activate` script: `echo export
-NCDC_TOKEN=[your token generated at
-https://www.ncdc.noaa.gov/cdo-web/token] >> env/bin/activate`
+Store your token in your `env/bin/activate`
+    script:
+
+    echo export NCDC_TOKEN=[your token generated at https://www.ncdc.noaa.gov/cdo-web/token] >> env/bin/activate
 
 Restart the env, and your token will be loaded as an environment
-variable: `source env/bin/activate` `echo $NCDC_TOKEN`
+variable:
+
+    source env/bin/activate
+    echo $NCDC_TOKEN
