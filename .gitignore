@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+env/*
+.vscode/
+**/.ipynb_checkpoints/*
+**/.DS_Store
