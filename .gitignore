@@ -9,3 +9,5 @@ env/*
 .Rprofile
 input/weather_long.csv
 __pycache__/*
+*.pyc
+input/.DS_Store
