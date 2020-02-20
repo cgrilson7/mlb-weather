@@ -11,3 +11,5 @@ input/weather_long.csv
 __pycache__/*
 *.pyc
 input/.DS_Store
+scrape-games/games_2019.csv
+.env
