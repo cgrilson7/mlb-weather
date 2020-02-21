@@ -1,5 +1,5 @@
-The Seamheads.com Parkfactors Database (KJOK Parkfactors 2018_12_14.accdb)
-Release Date:  December 14, 2018
+The Seamheads.com Parkfactors Database (Seamheads Parkfactors 2019_December.accdb)
+Release Date:  December 14, 2019
 
 ----------------------------------------------------------------------
 README CONTENTS
@@ -26,7 +26,7 @@ README CONTENTS
 ----------------------------------------------------------------------
 0.1 Copyright Notice & Limited Use License
 
-This database is copyright 2018 by Kevin D. Johnson. A license is granted
+This database is copyright 2019 by Kevin D. Johnson. A license is granted
 for individual use for research purposes. It may not be re-distributed
 without permission. Any commercial use, or other dissemination of the
 database in part or in whole is prohibited. Use of this database
@@ -38,7 +38,7 @@ kjokbaseball@yahaoo.com.
 ----------------------------------------------------------------------
 0.2 Contact Information
 
-Yahoo egroup: kjokbaseball
+Groups IO egroup: kjokbaseball
  E-Mail : kjokbaseball@yahoo.com
 
 
@@ -48,11 +48,11 @@ Yahoo egroup: kjokbaseball
 
 
 MS Access Versions:
-      KJOK Parkfactors 2018_12_14.accdb
-      KJOK Parkfactors 2018_12_14.txt Documentation.txt 
+      Seamheads Parkfactors 2019_December.accdb
+      Seamheads Parkfactors 2019_December Documentation.txt 
 
 Comma Delimited Version:
-      Seamheads Ballpark Database 2018_12_14 Documentation.txt 
+      Seamheads Parkfactors 2019_December Documentation.txt 
       Active Park Events.csv
       Home Main Data.csv  
       Home Main Data With Parks Breakout.csv
@@ -73,7 +73,7 @@ Comma Delimited Version:
 1.1 Introduction
 
 This database contains batting statistics by ballpark for
-Major League Baseball from 1871 through 2018.  It includes data from
+Major League Baseball from 1871 through 2019.  It includes data from
 the two current leagues (American and National), the four other "major" 
 leagues (American Association, Union Association, Players League, and
 Federal League), and the National Association of 1871-1875. 
@@ -91,9 +91,9 @@ feedback is appreciated
 ----------------------------------------------------------------------
 1.2 What's New
 
-2018 December Version data changes (12/14/2018)
+2019 December Version data changes (12/14/2019)
 
-The 2018 version now includes 2018, 1906 and 1907 home and away, and LH and RH splits based on
+The 2019 version now includes 2018, 1906 and 1907 home and away, and LH and RH splits based on
 Retrosheet play-by-play and Boxscore data. (note sometimes bathand is unknown for switch-hitters
 and for some other batters pre-1926).
 

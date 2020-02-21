@@ -1,9 +1,9 @@
 PARKID,NAME,CITY,STATE,START,END,LEAGUE,NOTES,AKA,Exact,Latitude,Longitude,Altitude
-ALB01,Riverside Park,Albany,NY,18800911,18820530,NL,TRN:9/11/80;6/15&9/10/1881;5/16-5/18&5/30/1882,Greenbush Grounds,Y,42.643132,-73.750997,14
+ALB01,Riverside Park,East Albany,NY,18800911,18820530,NL,TRN:9/11/80;6/15&9/10/1881;5/16-5/18&5/30/1882,Greenbush Grounds,Y,42.642295,-73.745198,14
 ALT01,Columbia Park,Altoona,PA,18840430,18840531,UA,,4th Ave Grounds; Waverly Field,Y,40.494582,-78.411164,1129
 ANA01,Angel Stadium of Anaheim,Anaheim,CA,19660419,,AL,,Anaheim Stadium; Edison Field,Y,33.80029,-117.882685,154
 ARL01,Arlington Stadium,Arlington,TX,19720421,19931003,AL,,,Y,32.755974,-97.084778,552
-ARL02,Globe Life Park,Arlington,TX,19940411,,AL,,Rangers Ballpark in Arlington; The Ballpark in Arlington; Ameriquest Field,Y,32.751164,-97.082546,549
+ARL02,Globe Life Park,Arlington,TX,19940411,20190929,AL,,Rangers Ballpark in Arlington; The Ballpark in Arlington; Ameriquest Field,Y,32.751164,-97.082546,549
 ATL01,Atlanta-Fulton County Stadium,Atlanta,GA,19660412,19960923,NL,,Atlanta Stadium,Y,33.739457,-84.389486,979
 ATL02,Turner Field,Atlanta,GA,19970404,20161002,NL,,,Y,33.735487,-84.389464,939
 ATL03,SunTrust Park,Atlanta,GA,20170414,,NL,,,Y,33.89127,-84.4681,981
@@ -42,7 +42,7 @@ CHI08,West Side Grounds,Chicago,IL,18930514,19151003,NL,CHN:1893(Sun);1894-1915,
 CHI09,South Side Park III,Chicago,IL,19010424,19100627,AL,,White Sox Park; White Stocking Park; Cricket Club Grounds; 39th Street Grounds; Schorling's Park; American Giants Park,Y,41.824857,-87.632664,594
 CHI10,Comiskey Park I,Chicago,IL,19100701,19900930,AL,,White Sox Park,Y,41.83201,-87.634025,594
 CHI11,Wrigley Field,Chicago,IL,19140423,,NL,CHF:1914-15; CHN:1916-date,Weeghman Park; Cubs Park; Whales Park; North Side Ball Park,Y,41.948314,-87.655397,599
-CHI12,U.S. Cellular Field,Chicago,IL,19910418,,AL,,Comiskey Park,Y,41.829892,-87.633703,594
+CHI12,Guarantee Rate Park,Chicago,IL,19910418,,AL,,Comiskey Park; US. Cellular Field,Y,41.829892,-87.633703,594
 CIN01,Lincoln Park Grounds,Cincinnati,OH,18710513,18710722,NA,WS3:5/13&7/4/1871; CL1:7/22/1871,Union Cricket Club Grounds; Union Grounds,Y,39.109827,-84.534652,513
 CIN02,Avenue Grounds,Cincinnati,OH,18760425,18790827,NL,first Ladies Day (1876),,Y,39.142878,-84.54647,480
 CIN03,Bank Street Grounds,Cincinnati,OH,18800501,18841015,,CN1:1880; CN2:1882-83; CNU:1884,Union Athletic Park,Y,39.121126,-84.536923,496
@@ -110,6 +110,7 @@ KAN06,Kauffman Stadium,Kansas City,MO,19730410,,AL,,Royals Stadium,Y,39.051604,-
 KEO01,Perry Park,Keokuk,IA,18750504,18750614,NA,,Walte's Pasture,Y,40.413397,-91.388595,641
 LAS01,Cashman Field,Las Vegas,NV,19960401,19960407,AL,OAK: 6 games,,Y,36.179914,-115.129708,1907
 LBV01,Champion Stadium,Lake Buena Vista,FL,20070515,20080424,AL,TBA 3 games in 2007,The Ballpark at Disney's Wide World; Disney Field; Cracker Jack Stadium,Y,28.336796,-81.555908,98
+LON01,Olympic Stadium,London,EN,20190629,,AL,,,Y,51.5365,-0.0098,206
 LOS01,Los Angeles Memorial Coliseum,Los Angeles,CA,19580418,19610920,NL,,Los Angeles Colisuem; Memorial Coliseum,Y,34.014019,-118.288009,139
 LOS02,Wrigley Field,Los Angeles,CA,19610427,19611001,AL,,,Y,34.007316,-118.266236,188
 LOS03,Dodger Stadium,Los Angeles,CA,19620410,,NL,LAN:1962-prsnt; LAA:1962-9/2/65; CAL:9/2to9/22/65,Chavez Ravine,Y,34.073878,-118.239951,501
@@ -159,8 +160,9 @@ NYC17,Shea Stadium,New York,NY,19640417,20080928,NL,NYN:1964-2008; NYA:1974-75,W
 NYC18,Wallace's Ridgewood Park,Queens,NY,18870424,18900608,AA,BR3: Sundays (1887-89); BR4: 1890,Ridgewood Park II; Wallace's Grounds,Y,40.694886,-73.90502,71
 NYC19,Washington Park IV,Brooklyn,NY,19140511,19150930,FL,,,Y,40.67468,-73.985936,26
 NYC20,Citi Field,New York,NY,20090413,,NL,,,Y,40.757134,-73.84584,13
-NYC21,Yankee Stadium II,New York,NY,20090416,,AL,,,Y,40.829586,-73.926413,11
-OAK01,Oakland-Alameda County Coliseum,Oakland,CA,19680417,,AL,,Network Associates Coliseum; McAfee Coliseum; UMAX Coliseum; Overstock.com Coliseum,Y,37.751619,-122.200451,0
+NYC21,New Yankee Stadium,New York,NY,20090416,,AL,,Yankee Stadium II,Y,40.829586,-73.926413,11
+OAK01,Oakland-Alameda County Coliseum,Oakland,CA,19680417,,AL,,Network Associates Coliseum; McAfee Coliseum; UMAX Coliseum; Overstock.com Coliseum; RingCentral Coliseum; Oakland Coliseum,Y,37.751619,-122.200451,0
+OMA01,TD Ameritrade Park,Omaha,NE,20190613,20190613,AL,,,Y,41.267,-95.932,989
 PEN01,Pendleton Park,Cincinnati,OH,18910425,18910813,AA,CN3,East End Park; East End Grounds: Cincinnati Gym Grounds,Y,39.117813,-84.447058,476
 PHI01,Jefferson Street Grounds,Philadelphia,PA,18710603,18901011,,PH1:1871-75; PH2:1873-75; PHN:1876; PH4:1883-1890,Athletics Park; Athletic Base Ball Grounds,Y,39.977635,-75.178031,104
 PHI02,Centennial Park,Philadelphia,PA,18750421,18750604,NA,PH3,Columbia Park,Y,39.981581,-75.174812,104
@@ -198,10 +200,10 @@ SAN01,Jack Murphy Stadium,San Diego,CA,19690408,20030928,NL,,San Diego Stadium; 
 SAN02,Petco Park,San Diego,CA,20040408,,NL,,,Y,32.70753,-117.157056,14
 SEA01,Sicks' Stadium,Seattle,WA,19690411,19691002,AL,,Sicks' Select Stadium; Sicks' Seattle Stadium; Seattle Stadium,Y,47.579199,-122.297403,61
 SEA02,Kingdome,Seattle,WA,19770406,19990627,AL,,King County Stadium,Y,47.595133,-122.331639,17
-SEA03,Safeco Field,Seattle,WA,19990715,,AL,,,Y,47.591443,-122.332283,17
+SEA03,T-Mobile Park,Seattle,WA,19990715,,AL,,Safeco Field,Y,47.591443,-122.332283,17
 SFO01,Seals Stadium,San Francisco,CA,19580415,19590920,NL,,,Y,37.766774,-122.409337,61
 SFO02,Candlestick Park,San Francisco,CA,19600412,19990930,NL,,3Com Park; 3Com Park at Candlestick Point; The Stick,Y,37.713297,-122.38627,135
-SFO03,AT&T Park,San Francisco,CA,20000411,,NL,,Pac Bell Park; SBC Park,Y,37.778324,-122.389221,8
+SFO03,Oracle Park,San Francisco,CA,20000411,,NL,,Pac Bell Park; SBC Park; AT&T Park,Y,37.778324,-122.389221,8
 SJU01,Estadio Hiram Bithorn,San Juan,PR,20010401,20180418,NL,TOR: 4/1/2001; MON:4/11-20;6/3-8;9/5-11/2003,Hiram Bithorn Stadium,Y,18.416612,-66.072787,10
 SPA01,Ft. Street Grounds,St. Paul,MN,,,,Never Played in Home Park,West Seventh Street Park,Y,44.93322,-93.122029,791
 SPR01,Hampden Park Race Track,Springfield,MA,18720723,18750514,NA,TRO:7/23/1872; BS1:7/16/1873;5/14/1875,Springfield Track,Y,42.107144,-72.605784,67
@@ -214,7 +216,7 @@ STL06,Sportsman's Park II,St. Louis,MO,19020423,19081006,AL,,,Y,38.657795,-90.22
 STL07,Sportsman's Park III,St. Louis,MO,19090414,19660508,,SLA:1909-1953; SLN:7/1/1920 to 5/8/1966,Busch Stadium,Y,38.657718,-90.220344,492
 STL08,Handlan's Park,St. Louis,MO,19140416,19151003,FL,,Federal League Park; Laclede Street Field; Grand and Market; Steininger Field,Y,38.633589,-90.23254,512
 STL09,Busch Stadium II,St. Louis,MO,19660512,20051002,NL,,Busch Memorial Stadium,Y,38.62393,-90.192326,460
-STL10,Busch Stadium III,St. Louis,MO,20060410,,NL,,,Y,38.622622,-90.192841,438
+STL10,Busch Stadium III,St. Louis,MO,20060410,,NL,,Busch Stadium,Y,38.622622,-90.192841,438
 STP01,Tropicana Field,St. Petersburg,FL,19980331,,AL,,,Y,27.768254,-82.653431,41
 SYD01,Sydney Cricket Ground,Sydney,AUS,20140322,20140323,NL,,,Y,-33.891699,151.224729,190
 SYR01,Star Park I,Syracuse,NY,18790528,18790910,NL,,Newell Park,Y,43.034993,-76.148711,392
