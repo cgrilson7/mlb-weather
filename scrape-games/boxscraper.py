@@ -137,7 +137,7 @@ def scrape_game(game_url, write_to_db = True):
     if write_to_db:
         connection = get_connection()
         cursor = connection.cursor()
-        insert_statement = "INSERT INTO boxscores (game_url, away_full, home_full, away_score, home_score, start_date, start_time, start_datetime, end_datetime, duration_hh, duration_mm, venue) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        insert_statement = "INSERT IGNORE INTO boxscores (game_url, away_full, home_full, away_score, home_score, start_date, start_time, start_datetime, end_datetime, duration_hh, duration_mm, venue) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
         cursor.execute(insert_statement, out)
         connection.commit()
         print(cursor.rowcount, "records inserted.")
@@ -159,7 +159,7 @@ def scrape_season(year, write_to_db = True):
     if write_to_db:
         connection = get_connection()
         cursor = connection.cursor()
-        insert_statement = "INSERT INTO boxscores (game_url, away_full, home_full, away_score, home_score, start_date, start_time, start_datetime, end_datetime, duration_hh, duration_mm, venue) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+        insert_statement = "INSERT IGNORE INTO boxscores (game_url, away_full, home_full, away_score, home_score, start_date, start_time, start_datetime, end_datetime, duration_hh, duration_mm, venue) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
         cursor.executemany(insert_statement, season_results)
         connection.commit()
         print(cursor.rowcount, "records inserted.")
