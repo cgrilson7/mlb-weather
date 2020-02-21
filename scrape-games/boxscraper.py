@@ -153,7 +153,6 @@ def scrape_season(year, write_to_db = True):
     game_urls = get_all_urls(season_soup)
 
     for game_url in tqdm(game_urls):
-
         season_results.append(scrape_game(game_url, False))
 
     if write_to_db:
@@ -167,4 +166,3 @@ def scrape_season(year, write_to_db = True):
 
     else:    
         return season_results
-
